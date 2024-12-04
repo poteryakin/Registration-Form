@@ -10,7 +10,7 @@
     <main id="main">
         <div id="background-photo">
             <div id="box-shadow">
-                <img src="./odin-lined.png" style="width: 120px; height: 150px;">
+                <img src="./odin-lined.png" id="picture_logo" alt="Picture logo">
                 <p id="logo-text">ODIN</p>
             </div>
             <footer id="footer-photo">
@@ -18,37 +18,37 @@
             </footer>
         </div>
         <div id="registraction">
-            <div id="first-block">
+            <section id="first-block">
                 <p class="first-text">This is not a real online service! You know you need something<br>
                 like this in your life to help you realize your deepest dreams.<br>
                 Sign up <em>now</em> to get started.</p>
                 <p class="first-text">You <em>know</em> you want to.</p>
-            </div>
-            <div id="second-block">
+            </section>
+            <section id="second-block">
                 <p class="first-text">Let's do this!</p>
                 <form id="input-forms" action="test" method="post">
                     <div class="inputs">
                         <label class="label-text" for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" class="input-data">
                         <label class="label-text" for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" class="input-data">
                         <label class="label-text" for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" minlength="8">
+                        <input type="password" id="password" name="password" class="input-data" required>
                     </div>
                     <div class="inputs">
                         <label class="label-text" for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" class="input-data">
                         <label class="label-text" for="phone_number">PHONE NUMBER</label>
-                        <input type="text" id="phone_number" name="last_name">
+                        <input type="text" id="phone_number" name="last_name" class="input-data">
                         <label class="label-text" for="conf_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="conf_password" name="conf_password">
+                        <input type="password" id="conf_password" name="conf_password" class="input-data">
                     </div>
                 </form>
-            </div>
-            <div id="account">
-                <button type="submit" id="button_create">Create Account</button>
+            </section>
+            <section id="account">
+                <button type="submit" id="button_create" form="input-forms">Create Account</button>
                 <p id="already_acc">Already have an account? <a href="" id="login">Log in</a></p>
-            </div>
+            </section>
         </div>
     </main>
     <script src="./script.js"></script>
