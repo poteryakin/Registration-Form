@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "norse-bold";
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    width: 100vw;
+}
+
+#background-photo {
+    height: 100vh;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    width: 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#registraction {
+    width: 70vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+#logo-text {
+    font-family: "norse-bold";
+    font-size: 8rem;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#box-shadow{
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    align-items: center;
+}
+
+#footer-photo {
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.unsplash {
+    color: white;
+}
+
+#login {
+    color: #596D48;
+    text-decoration: none;
+}
+
+#picture {
+    width: 120px;
+    height: 150px;
+}
+
+#first-block {
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#second-block {
+    padding-bottom: 50px;
+    padding-top: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 30vh;
+    padding-left: 2vw;
+}
+
+.first-text {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.label-text {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+#input-forms {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    width: 15vw;
+    border-radius: 5px;
+    height: 28px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+input:invalid {
+    border-color: red;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+#account {
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+#button_create {
+    background-color: #596D48;
+    color: white;
+    font-size: 15px;
+    width: 13vw;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#already_acc {
+    font-size: 20px;
+    margin-top: 30px;
+}
